@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F7DB1D419DB418D00C6DE3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7DB1D319DB418D00C6DE3D /* main.m */; };
+		5F7DB1D719DB418D00C6DE3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7DB1D619DB418D00C6DE3D /* AppDelegate.m */; };
+		5F7DB1D919DB418D00C6DE3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7DB1D819DB418D00C6DE3D /* Images.xcassets */; };
+		5F7DB1DC19DB418D00C6DE3D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7DB1DA19DB418D00C6DE3D /* MainMenu.xib */; };
+		5F7DB1E819DB418D00C6DE3D /* Try001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7DB1E719DB418D00C6DE3D /* Try001Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F7DB1E219DB418D00C6DE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F7DB1C619DB418D00C6DE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F7DB1CD19DB418D00C6DE3D;
+			remoteInfo = Try001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F7DB1CE19DB418D00C6DE3D /* Try001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7DB1D219DB418D00C6DE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F7DB1D319DB418D00C6DE3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F7DB1D519DB418D00C6DE3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F7DB1D619DB418D00C6DE3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F7DB1D819DB418D00C6DE3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F7DB1DB19DB418D00C6DE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F7DB1E119DB418D00C6DE3D /* Try001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7DB1E619DB418D00C6DE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F7DB1E719DB418D00C6DE3D /* Try001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try001Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F7DB1CB19DB418D00C6DE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7DB1DE19DB418D00C6DE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F7DB1C519DB418D00C6DE3D = {
+			isa = PBXGroup;
+			children = (
+				5F7DB1D019DB418D00C6DE3D /* Try001 */,
+				5F7DB1E419DB418D00C6DE3D /* Try001Tests */,
+				5F7DB1CF19DB418D00C6DE3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F7DB1CF19DB418D00C6DE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F7DB1CE19DB418D00C6DE3D /* Try001.app */,
+				5F7DB1E119DB418D00C6DE3D /* Try001Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F7DB1D019DB418D00C6DE3D /* Try001 */ = {
+			isa = PBXGroup;
+			children = (
+				5F7DB1D519DB418D00C6DE3D /* AppDelegate.h */,
+				5F7DB1D619DB418D00C6DE3D /* AppDelegate.m */,
+				5F7DB1D819DB418D00C6DE3D /* Images.xcassets */,
+				5F7DB1DA19DB418D00C6DE3D /* MainMenu.xib */,
+				5F7DB1D119DB418D00C6DE3D /* Supporting Files */,
+			);
+			path = Try001;
+			sourceTree = "<group>";
+		};
+		5F7DB1D119DB418D00C6DE3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F7DB1D219DB418D00C6DE3D /* Info.plist */,
+				5F7DB1D319DB418D00C6DE3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F7DB1E419DB418D00C6DE3D /* Try001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F7DB1E719DB418D00C6DE3D /* Try001Tests.m */,
+				5F7DB1E519DB418D00C6DE3D /* Supporting Files */,
+			);
+			path = Try001Tests;
+			sourceTree = "<group>";
+		};
+		5F7DB1E519DB418D00C6DE3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F7DB1E619DB418D00C6DE3D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F7DB1CD19DB418D00C6DE3D /* Try001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7DB1EB19DB418D00C6DE3D /* Build configuration list for PBXNativeTarget "Try001" */;
+			buildPhases = (
+				5F7DB1CA19DB418D00C6DE3D /* Sources */,
+				5F7DB1CB19DB418D00C6DE3D /* Frameworks */,
+				5F7DB1CC19DB418D00C6DE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Try001;
+			productName = Try001;
+			productReference = 5F7DB1CE19DB418D00C6DE3D /* Try001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F7DB1E019DB418D00C6DE3D /* Try001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7DB1EE19DB418D00C6DE3D /* Build configuration list for PBXNativeTarget "Try001Tests" */;
+			buildPhases = (
+				5F7DB1DD19DB418D00C6DE3D /* Sources */,
+				5F7DB1DE19DB418D00C6DE3D /* Frameworks */,
+				5F7DB1DF19DB418D00C6DE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F7DB1E319DB418D00C6DE3D /* PBXTargetDependency */,
+			);
+			name = Try001Tests;
+			productName = Try001Tests;
+			productReference = 5F7DB1E119DB418D00C6DE3D /* Try001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F7DB1C619DB418D00C6DE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Vito Solimene";
+				TargetAttributes = {
+					5F7DB1CD19DB418D00C6DE3D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5F7DB1E019DB418D00C6DE3D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5F7DB1CD19DB418D00C6DE3D;
+					};
+				};
+			};
+			buildConfigurationList = 5F7DB1C919DB418D00C6DE3D /* Build configuration list for PBXProject "Try001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F7DB1C519DB418D00C6DE3D;
+			productRefGroup = 5F7DB1CF19DB418D00C6DE3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F7DB1CD19DB418D00C6DE3D /* Try001 */,
+				5F7DB1E019DB418D00C6DE3D /* Try001Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F7DB1CC19DB418D00C6DE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7DB1D919DB418D00C6DE3D /* Images.xcassets in Resources */,
+				5F7DB1DC19DB418D00C6DE3D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7DB1DF19DB418D00C6DE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F7DB1CA19DB418D00C6DE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7DB1D719DB418D00C6DE3D /* AppDelegate.m in Sources */,
+				5F7DB1D419DB418D00C6DE3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7DB1DD19DB418D00C6DE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7DB1E819DB418D00C6DE3D /* Try001Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F7DB1E319DB418D00C6DE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F7DB1CD19DB418D00C6DE3D /* Try001 */;
+			targetProxy = 5F7DB1E219DB418D00C6DE3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F7DB1DA19DB418D00C6DE3D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F7DB1DB19DB418D00C6DE3D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F7DB1E919DB418D00C6DE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F7DB1EA19DB418D00C6DE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F7DB1EC19DB418D00C6DE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Try001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F7DB1ED19DB418D00C6DE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Try001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F7DB1EF19DB418D00C6DE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Try001Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try001.app/Contents/MacOS/Try001";
+			};
+			name = Debug;
+		};
+		5F7DB1F019DB418D00C6DE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Try001Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try001.app/Contents/MacOS/Try001";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F7DB1C919DB418D00C6DE3D /* Build configuration list for PBXProject "Try001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7DB1E919DB418D00C6DE3D /* Debug */,
+				5F7DB1EA19DB418D00C6DE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7DB1EB19DB418D00C6DE3D /* Build configuration list for PBXNativeTarget "Try001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7DB1EC19DB418D00C6DE3D /* Debug */,
+				5F7DB1ED19DB418D00C6DE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F7DB1EE19DB418D00C6DE3D /* Build configuration list for PBXNativeTarget "Try001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7DB1EF19DB418D00C6DE3D /* Debug */,
+				5F7DB1F019DB418D00C6DE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F7DB1C619DB418D00C6DE3D /* Project object */;
+}
